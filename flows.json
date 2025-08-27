@@ -207,7 +207,8 @@
         "y": 140,
         "wires": [
             [
-                "2983a6e6bd5bccc3"
+                "2983a6e6bd5bccc3",
+                "a3429e1335bc26b4"
             ]
         ]
     },
@@ -255,6 +256,23 @@
         "name": "testing return",
         "statusCode": "200",
         "headers": {},
+        "x": 450,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a3429e1335bc26b4",
+        "type": "debug",
+        "z": "367c9573de179f18",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
         "x": 450,
         "y": 220,
         "wires": []
