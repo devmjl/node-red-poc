@@ -1,1 +1,11 @@
+# Node-RED project ignores
 *.backup
+*.tmp
+*.log
+*.bak
+node_modules/
+.DS_Store
+
+# Env & credentials
+.env
+.flow_cred.json
