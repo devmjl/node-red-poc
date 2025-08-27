@@ -8,4 +8,4 @@ node_modules/
 
 # Env & credentials
 .env
-.flow_cred.json
+.flows_cred.json
