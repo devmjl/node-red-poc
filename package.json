@@ -1,0 +1,12 @@
+{
+    "name": "tadiran-poc",
+    "description": "e test poc case for git development",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
