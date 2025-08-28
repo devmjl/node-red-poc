@@ -278,6 +278,141 @@
         "wires": []
     },
     {
+        "id": "350b477663904833",
+        "type": "function",
+        "z": "367c9573de179f18",
+        "name": "Test Env",
+        "func": "msg.payload = env.get(\"NODE_ENV\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "9504fd96f00e1cbc"
+            ]
+        ]
+    },
+    {
+        "id": "9504fd96f00e1cbc",
+        "type": "debug",
+        "z": "367c9573de179f18",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "cffd9c04a0c57099",
+        "type": "inject",
+        "z": "367c9573de179f18",
+        "name": "environment test",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "350b477663904833"
+            ]
+        ]
+    },
+    {
+        "id": "e0ee5963383b30d9",
+        "type": "inject",
+        "z": "367c9573de179f18",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 540,
+        "wires": [
+            [
+                "16a41f73729b7ca9"
+            ]
+        ]
+    },
+    {
+        "id": "16a41f73729b7ca9",
+        "type": "http request",
+        "z": "367c9573de179f18",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://httpbin.org/get",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 540,
+        "wires": [
+            [
+                "8472bb4e892811ef"
+            ]
+        ]
+    },
+    {
+        "id": "8472bb4e892811ef",
+        "type": "debug",
+        "z": "367c9573de179f18",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 540,
+        "wires": []
+    },
+    {
         "id": "8da57dd222c2c771",
         "type": "http in",
         "z": "02a4ad2eba83431b",
