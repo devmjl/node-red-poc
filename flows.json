@@ -442,7 +442,8 @@
         "y": 100,
         "wires": [
             [
-                "c06d4453c992933e"
+                "c06d4453c992933e",
+                "0abd1a2cd75acb9d"
             ]
         ]
     },
@@ -475,6 +476,22 @@
         "headers": {},
         "x": 490,
         "y": 100,
+        "wires": []
+    },
+    {
+        "id": "0abd1a2cd75acb9d",
+        "type": "debug",
+        "z": "02a4ad2eba83431b",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 200,
         "wires": []
     },
     {
@@ -517,7 +534,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 240,
+        "x": 260,
         "y": 80,
         "wires": [
             [
@@ -539,7 +556,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 420,
+        "x": 440,
         "y": 160,
         "wires": []
     },
