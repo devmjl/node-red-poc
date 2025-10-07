@@ -527,23 +527,6 @@
         ]
     },
     {
-        "id": "75b23d3e661f9c89",
-        "type": "debug",
-        "z": "30472f125f509ece",
-        "name": "testing debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 420,
-        "y": 160,
-        "wires": []
-    },
-    {
         "id": "33a86ce5ed50fea7",
         "type": "http in",
         "z": "ac3aa3585c8f4de7",
