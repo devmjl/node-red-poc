@@ -1,4 +1,4 @@
-# Tadiran POC
+# POC
 
 A test proof-of-concept project using Node-RED with Git integration, `.env` configuration, and secure credential management.
 
