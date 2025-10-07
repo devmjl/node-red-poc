@@ -442,7 +442,8 @@
         "y": 100,
         "wires": [
             [
-                "c06d4453c992933e"
+                "c06d4453c992933e",
+                "0abd1a2cd75acb9d"
             ]
         ]
     },
@@ -475,6 +476,22 @@
         "headers": {},
         "x": 490,
         "y": 100,
+        "wires": []
+    },
+    {
+        "id": "0abd1a2cd75acb9d",
+        "type": "debug",
+        "z": "02a4ad2eba83431b",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 200,
         "wires": []
     },
     {
@@ -517,7 +534,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 240,
+        "x": 260,
         "y": 80,
         "wires": [
             [
@@ -527,6 +544,26 @@
         ]
     },
     {
+<<<<<<< HEAD
+=======
+        "id": "75b23d3e661f9c89",
+        "type": "debug",
+        "z": "30472f125f509ece",
+        "name": "testing debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 160,
+        "wires": []
+    },
+    {
+>>>>>>> 7d1ec7d4da9aedb638cf8d8b745e00e78fd4a67d
         "id": "33a86ce5ed50fea7",
         "type": "http in",
         "z": "ac3aa3585c8f4de7",
